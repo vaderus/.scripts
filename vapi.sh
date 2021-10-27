@@ -1,13 +1,11 @@
 #!/bin/bash
 
 #baixar os arquivos
-pacman -Sy git
 mkdir /home/gabriel/.sources/
 git clone https://github.com/vaderus/dwm /home/gabriel/.sources/dwm
 git clone https://github.com/vaderus/st /home/gabriel/.sources/st
 git clone https://github.com/vaderus/slstatus /home/gabriel/.sources/slstatus
 git clone https://github.com/vaderus/dmenu /home/gabriel/.sources/dmenu
-git clone https://github.com/vaderus/.scripts /home/gabriel/
 git clone https://aur.archlinux.org/paru.git /home/gabriel/.sources/paru-git
 mv /home/gabriel/.scripts/colors /home/gabriel/.sources/
 echo "gits baixados"
